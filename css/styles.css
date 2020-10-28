@@ -1,0 +1,35 @@
+body {
+  padding: 0;
+  background-color: beige;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 1rem 2rem;
+}
+
+.search input {
+  background-color: gray;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem 1rem;
+  height: 2.5rem;
+  width: 80%;
+  outline: none;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+  padding: 0 2rem;
+}
+
+img {
+  display: block;
+  margin: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */
